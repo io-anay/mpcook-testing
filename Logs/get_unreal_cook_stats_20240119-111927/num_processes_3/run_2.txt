@@ -1,0 +1,1217 @@
+Running AutomationTool...
+Using bundled DotNet SDK version: 6.0.302
+Starting AutomationTool...
+Parsing command line: BuildCookRun -nop4 -cook -skipstage -prereqs -compressed -ddc -project=C:\dev\M2Unreal\Game\M2Development\M2Development.uproject -skippackage -createreleaseversion=multi-process-cook-test -createreleaseversionroot="C:\dev\Python\Cooker Testing\ReleaseTemp" -skipbuild -skipbuildeditor -nocompile -installed -utf8output -waitmutex -SkipCookingEditorContent -client -TargetPlatform=Win64+Linux -server -ServerTargetPlatform=Linux -AdditionalCookerOptions="-cookprocesscount=3" -map=Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym
+Initializing script modules...
+Total script module initialization time: 0.42 s.
+Executing commands...
+Setting up ProjectParams for C:\dev\M2Unreal\Game\M2Development\M2Development.uproject
+********** COOK COMMAND STARTED **********
+HasMapsToCook Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym
+Params.HasMapsToCook Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym
+Running UnrealEditor Cook for project C:\dev\M2Unreal\Game\M2Development\M2Development.uproject
+Commandlet log file is C:\dev\M2Unreal\Game\Engine\Programs\AutomationTool\Saved\Cook-2024.01.19-11.29.42.txt
+Running: C:\dev\M2Unreal\Game\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\dev\M2Unreal\Game\M2Development\M2Development.uproject" -run=Cook -Map=Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym -TargetPlatform=WindowsClient+LinuxClient+LinuxServer  -unversioned -skipeditorcontent -cookprocesscount=3 -fileopenlog -createreleaseversion=multi-process-cook-test -createreleaseversionroot=C:\dev\Python\Cooker Testing\ReleaseTemp -abslog="C:\dev\M2Unreal\Game\Engine\Programs\AutomationTool\Saved\Cook-2024.01.19-11.29.42.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+LogInit: Display: Running engine for game: M2Development
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="UE5-CL-0"
+LogCsvProfiler: Display: Metadata set : engineversion="5.3.0-0+UE5"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (21H2) [10.0.22000.2538] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|12th Gen Intel(R) Core(TM) i9-12900KS"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\dev\M2Unreal\Game\M2Development\M2Development.uproject -run=Cook -Map=Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym -TargetPlatform=WindowsClient+LinuxClient+LinuxServer -unversioned -skipeditorcontent -cookprocesscount=3 -fileopenlog -createreleaseversion=multi-process-cook-test -createreleaseversionroot=C:\dev\Python\Cooker Testing\ReleaseTemp -abslog=C:\dev\M2Unreal\Game\Engine\Programs\AutomationTool\Saved\Cook-2024.01.19-11.29.42.txt -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+LogCsvProfiler: Display: Metadata set : loginid="baa4138b41ae1e112dfa84866b3df651"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogConfig: Display: Loading GDK ini files took 0.04 seconds
+LogConfig: Display: Loading XboxCommonGDK ini files took 0.04 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Sony ini files took 0.04 seconds
+LogConfig: Display: Loading XboxCommon ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading Windows ini files took 0.05 seconds
+LogConfig: Display: Loading PS5 ini files took 0.05 seconds
+LogConfig: Display: Loading XSX ini files took 0.05 seconds
+LogConfig: Display: Loading XboxOneGDK ini files took 0.05 seconds
+LogConfig: Display: Loading XB1 ini files took 0.05 seconds
+LogConfig: Display: Loading PS4 ini files took 0.05 seconds
+LogConfig: Display: Loading WinGDK ini files took 0.05 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogAssetRegistry: Display: Asset registry cache read as 116.4 MiB from ../../../M2Development/Intermediate/CachedAssetRegistry_0.bin
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Fab/Content/' mounted to '/Fab/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/JunoSkypark/Content/' mounted to '/JunoSkypark/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/M2Common/Content/' mounted to '/M2Common/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/M2Content/Content/' mounted to '/M2Content/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/FrameAnalyzer/Content/' mounted to '/FrameAnalyzer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/MMLEngine/Content/' mounted to '/MMLEngine/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/ThirdParty/Linter/Content/' mounted to '/Linter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/ThirdParty/MillicastPlayer/Content/' mounted to '/MillicastPlayer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/JunoVoxelWorld/Content/' mounted to '/JunoVoxelWorld/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/ThirdParty/RuntimeAudioImporter/Content/' mounted to '/RuntimeAudioImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/M2Core/Content/' mounted to '/M2Core/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/ThirdParty/glTFRuntime/Content/' mounted to '/glTFRuntime/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/ThirdParty/glTFRuntimeConvexCollisions/Content/' mounted to '/glTFRuntimeConvexCollisions/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/AnimationWarping/Content/' mounted to '/AnimationWarping/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/AnimationLocomotionLibrary/Content/' mounted to '/AnimationLocomotionLibrary/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/MotionWarping/Content/' mounted to '/MotionWarping/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ACLPlugin/Content/' mounted to '/ACLPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/RigLogic/Content/' mounted to '/RigLogic/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Compositing/OpenColorIO/Content/' mounted to '/OpenColorIO/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/UVEditor/Content/' mounted to '/UVEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioModulation/Content/' mounted to '/AudioModulation/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/CommonUI/Content/' mounted to '/CommonUI/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/RigVM/Content/' mounted to '/RigVM/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/SunPosition/Content/' mounted to '/SunPosition/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WebBrowserWidget/Content/' mounted to '/WebBrowserWidget/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/MultiUserTakes/Content/' mounted to '/MultiUserTakes/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/VirtualHeightfieldMesh/Content/' mounted to '/VirtualHeightfieldMesh/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ToolPresets/Content/' mounted to '/ToolPresets/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AR/ARUtilities/Content/' mounted to '/ARUtilities/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/CarnivalRenderer/Content/' mounted to '/CarnivalRenderer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/AnimatedCrowd/Content/' mounted to '/AnimatedCrowd/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/CrowdAnimBlueprint/Content/' mounted to '/CrowdAnimBlueprint/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/AsyncECS/Content/' mounted to '/AsyncECS/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusBots/Content/' mounted to '/MorpheusBots/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusPlugin/Content/' mounted to '/MorpheusPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusMotion/Content/' mounted to '/MorpheusMotion/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusMultiServer/Content/' mounted to '/MorpheusMultiServer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusMetrics/Content/' mounted to '/MorpheusMetrics/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/SkeletalAnimatedCrowd/Content/' mounted to '/SkeletalAnimatedCrowd/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusRuntimeTesting/Content/' mounted to '/MorpheusRuntimeTesting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusTween/Content/' mounted to '/MorpheusTween/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/MorpheusTargeting/Content/' mounted to '/MorpheusTargeting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/M2Unreal/Morpheus/SkeletalCrowd/Content/' mounted to '/SkeletalCrowd/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content/' mounted to '/ConcertSyncClient/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AR/AppleAR/AppleARKitFaceSupport/Content/' mounted to '/AppleARKitFaceSupport/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AR/AppleAR/AppleARKit/Content/' mounted to '/AppleARKit/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../M2Development/Plugins/LiveContentTest/Content/' mounted to '/LiveContentTest/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../M2Development/Plugins/anaytest/Content/' mounted to '/anaytest/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../M2Development/Plugins/WorldTravelTest/Content/' mounted to '/WorldTravelTest/'
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogHAL: Display: Platform has ~ 64 GB [68448215040 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.10
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.9.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For LinuxServer
+LogTargetPlatformManager: Display: Building Assets For LinuxClient
+LogTargetPlatformManager: Display: Building Assets For WindowsClient
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=646.78MBs, RandomWriteSpeed=178.70MBs. Assigned SpeedClass 'Local'
+LogShaderCompilers: Display: Using Local Shader Compiler with 21 workers.
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../M2Development/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../M2Development/Intermediate/CachedAssetRegistry_*.bin.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../M2Development/Intermediate/ShaderAutogen/VULKAN_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../M2Development/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1 ms
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogScript: Warning: Script Msg: No world was found for object (/Script/M2Content.Default__ExampleSingleton) passed in to UEngine::GetWorldFromContextObject().
+LogConsoleManager: Warning: Console object named 'a.AnimNode.FootLocker.Debug' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+LogConsoleManager: Warning: Console object named 'a.AnimNode.FootLocker.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'BitDepth'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'HPFCutoffFrequency'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'LowRateFrequency'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'LPFCutoffFrequency'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'Pan'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'Pitch'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'SampleRate'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'TimeOfDay'
+LogAudioModulation: Display: Initialized Audio Modulation Parameter 'Volume'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogPython: Warning: 'MorpheusActor.bHasClientAuthority' and 'MorpheusActor.bHasClientAuthority' have the same name (has_client_authority) when exposed to Python. Rename one of them using 'ScriptName' meta-data (or 'ScriptMethod' or 'ScriptConstant' for extension functions).
+LogScript: Warning: Script Msg: No world was found for object (/Script/M2ContentTests.Default__JM_TestPurchaseableManager) passed in to UEngine::GetWorldFromContextObject().
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogTemp: Display: Live Content Test module loaded
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCook: Display: CookProcessCount=3. CookMultiprocess is enabled with 1 CookDirector and 2 CookWorkers.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	UseSoftGC true (1/10)
+LogCook: Warning: 'ProjectSettings -> PackagingSettings -> Directories to always cook' has invalid element '/Wwise/WwiseTree'
+LogCook: Warning: 'ProjectSettings -> PackagingSettings -> Directories to always cook' has invalid element '/Wwise/WwiseTypes'
+LogCook: Display: Waiting for Asset Registry
+LogAssetRegistry: Display: Package C:/dev/M2Unreal/Game/Engine/Content/WwiseAudio/InitBank.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+LogAssetRegistry: Display: Triggering cache save on discovery complete
+LogAssetRegistry: Display: Asset registry cache written as 0.0 MiB to ../../../M2Development/Intermediate/CachedAssetRegistry_*.bin
+LogCook: Display: Clearing all cooked content for platform LinuxServer
+LogCook: Display: Clearing all cooked content for platform LinuxClient
+LogCook: Display: Clearing all cooked content for platform WindowsClient
+LogCook: Display: Sandbox cleanup took 0.213 seconds for platforms LinuxServer LinuxClient WindowsClient
+LogCook: Display: Compiling global changed shaders for platform 'LinuxServer'
+LogCook: Display: Compiling global changed shaders for platform 'LinuxClient'
+LogCook: Display: Compiling global changed shaders for platform 'WindowsClient'
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (SF_VULKAN_SM5-VULKAN_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 305 (30500.00%)
+LogShaderLibrary: Display: Total Shaders: 3604, Unique Shaders: 3592 (99.67%)
+LogShaderLibrary: Display: Total Shader Size: 21.23mb, Unique Shaders Size: 21.22mb (99.97%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     5, 2, 2, 2, 2, 2, 2, 2, 2, 1
+LogShaderLibrary: Display: Textual dump saved to '../../../M2Development/Saved/Shaders/SF_VULKAN_SM5-VULKAN_SM5/ShaderDebug-Global-SF_VULKAN_SM5-VULKAN_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Saved scl.csv C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-SF_VULKAN_SM5.shk for platform LinuxClient, 185392 bytes
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 346 (34600.00%)
+LogShaderLibrary: Display: Total Shaders: 4188, Unique Shaders: 4188 (100.00%)
+LogShaderLibrary: Display: Total Shader Size: 73.67mb, Unique Shaders Size: 73.67mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Textual dump saved to '../../../M2Development/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Saved scl.csv C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-PCD3D_SM6.shk for platform WindowsClient, 210539 bytes
+LogCook: Warning: 'ProjectSettings -> Directories to never cook -> Directories to always cook' has invalid element '/Wwise/WwiseTree'
+LogCook: Warning: 'ProjectSettings -> Directories to never cook -> Directories to always cook' has invalid element '/Wwise/WwiseTypes'
+LogCook: Warning: Unable to generate long package name, /JunoHighSociety/PDAs/Skins/PDA_Skin_HighSociety. Input '/JunoHighSociety/PDAs/Skins/PDA_Skin_HighSociety' is not a child of an existing mount point.
+LogCook: Warning: Unable to find package for cooking /M2Content/Audio/System/Classes/SCL_M2_Input. Instigator: { StartupSoftObjectPath }.
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Cooked packages 0 Packages Remain 1036 Total 1036
+LogCook: Display: Cook Diagnostics: OpenFileHandles=375, VirtualMemory=1873MiB
+LogCook: Display: 	CookWorker Local: 1036 packages remain.
+LogCook: Display: CookMultiprocess changed CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 0MiB
+	MemoryMinFreePhysical 0MiB
+	MemoryTriggerGCAtPressureLevel Critical
+	UseSoftGC true (1/10)
+LogCook: Display: CookMultiprocess changed number of cores from 16 to 5.
+LogCook: Display: CookMultiprocess changed number of hyperthreads from 24 to 5.
+LogCook: Display: CookWorkerServer 0 launched CookWorker as WorkerId 0 and PID 30320 with commandline "M2Development -run=cook -cookworker -CookProfileId=0 -MultiprocessId=1 C:\dev\M2Unreal\Game\M2Development\M2Development.uproject -Map=Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym -TargetPlatform=WindowsClient+LinuxClient+LinuxServer -unversioned -skipeditorcontent -fileopenlog -createreleaseversion=multi-process-cook-test -createreleaseversionroot=C:\dev\Python\Cooker Testing\ReleaseTemp -stdout -CrashForUAT -NoLogTimes -UTF8Output -CookDirectorHost=127.0.0.1:41897 -unattended -abslog=C:\dev\M2Unreal\Game\Engine\Programs\AutomationTool\Saved\Cook-2024.01.19-11.29.42_Worker0.txt -PhysicalCoreLimit=5".
+LogCook: Display: CookMultiprocess loadbalanced 8767 packages across 3 CookWorkers.
+LogCook: Display: 	   SingleProcess: Saves=8767, Loads=8767, Cost=35068.000, FractionOfSingleProcessCost=1.000
+LogCook: Display: 	CookWorker Local: Saves=3631, Loads=3717, Cost=14782.000, FractionOfSingleProcessCost=0.422
+LogCook: Display: 	CookWorker     0: Saves=2571, Loads=3483, Cost=13020.000, FractionOfSingleProcessCost=0.371
+LogCook: Display: 	CookWorker     1: Saves=2565, Loads=3483, Cost=13014.000, FractionOfSingleProcessCost=0.371
+LogCook: Display: 	CookWorker duplicated load effort: 10683/8767 loads = 1.219
+LogCook: Display: CookWorkerServer 1 launched CookWorker as WorkerId 1 and PID 6852 with commandline "M2Development -run=cook -cookworker -CookProfileId=1 -MultiprocessId=2 C:\dev\M2Unreal\Game\M2Development\M2Development.uproject -Map=Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym -TargetPlatform=WindowsClient+LinuxClient+LinuxServer -unversioned -skipeditorcontent -fileopenlog -createreleaseversion=multi-process-cook-test -createreleaseversionroot=C:\dev\Python\Cooker Testing\ReleaseTemp -stdout -CrashForUAT -NoLogTimes -UTF8Output -CookDirectorHost=127.0.0.1:41897 -unattended -abslog=C:\dev\M2Unreal\Game\Engine\Programs\AutomationTool\Saved\Cook-2024.01.19-11.29.42_Worker1.txt -PhysicalCoreLimit=5".
+LogCook: Display: Cooked packages 697 Packages Remain 8070 Total 8767
+LogCook: Display: Cooked packages 1770 Packages Remain 6997 Total 8767
+LogCook: Display: Cooked packages 3625 Packages Remain 5143 Total 8768
+LogCook: Display: Cooked packages 3632 Packages Remain 5136 Total 8768
+LogCook: Display: Cooked packages 3632 Packages Remain 5136 Total 8768
+LogCook: Display: CookWorker 1 connected after 16.957s.
+LogCook: Display: CookWorker 0 connected after 16.980s.
+LogCook: Display: Idle CookWorkers: { CookWorker Local }. Retracting 1285 packages from CookWorker 0 to distribute to the idle CookWorkers.
+LogCook: Display: 	CookWorker Local: 0 packages remain.
+LogCook: Display: 	CookWorker     0: 2571 packages remain.
+LogCook: Display: 	CookWorker     1: 2565 packages remain.
+LogCook: Display: Cooked packages 3632 Packages Remain 5136 Total 8768
+LogCook: Display: [CookWorker 0]: Connecting to CookDirector at 127.0.0.1:41897...
+LogCook: Display: [CookWorker 0]: Connection to CookDirector successful.
+LogAssetRegistry: Display: [CookWorker 0]: Package C:/dev/M2Unreal/Game/Engine/Content/WwiseAudio/InitBank.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+LogAssetRegistry: Display: [CookWorker 0]: Triggering cache save on discovery complete
+LogCook: Display: [CookWorker 0]: Initialization from CookDirector complete.
+LogCook: Display: [CookWorker 0]: Waiting for Asset Registry
+LogCook: Display: [CookWorker 0]: Sandbox cleanup took 0.000 seconds for platforms LinuxServer LinuxClient WindowsClient
+LogCook: Display: [CookWorker 0]: Cook Diagnostics: OpenFileHandles=371, VirtualMemory=1385MiB
+LogCook: Display: [CookWorker 1]: Connecting to CookDirector at 127.0.0.1:41897...
+LogCook: Display: [CookWorker 1]: Connection to CookDirector successful.
+LogAssetRegistry: Display: [CookWorker 1]: Package C:/dev/M2Unreal/Game/Engine/Content/WwiseAudio/InitBank.uasset uses an unknown custom version and cannot be loaded for the AssetRegistry
+LogAssetRegistry: Display: [CookWorker 1]: Triggering cache save on discovery complete
+LogCook: Display: [CookWorker 1]: Initialization from CookDirector complete.
+LogCook: Display: [CookWorker 1]: Waiting for Asset Registry
+LogCook: Display: [CookWorker 1]: Sandbox cleanup took 0.000 seconds for platforms LinuxServer LinuxClient WindowsClient
+LogCook: Display: [CookWorker 1]: Cook Diagnostics: OpenFileHandles=371, VirtualMemory=1371MiB
+LogCook: Display: Cooked packages 3833 Packages Remain 4935 Total 8768
+LogCook: Display: 1285 packages retracted from CookWorker 0 and distributed to idle workers { CookWorker Local }.
+LogCook: Display: 	CookWorker Local: 1285 packages remain.
+LogCook: Display: 	CookWorker     0: 1286 packages remain.
+LogCook: Display: 	CookWorker     1: 2364 packages remain.
+LogCook: Display: Cooked packages 4171 Packages Remain 4598 Total 8769
+LogCook: Display: Cooked packages 5145 Packages Remain 3630 Total 8775
+LogCook: Display: Cooked packages 6058 Packages Remain 2717 Total 8775
+LogCook: Display: Idle CookWorkers: { CookWorker Local }. Retracting 836 packages from CookWorker 1 to distribute to the idle CookWorkers.
+LogCook: Display: 	CookWorker Local: 0 packages remain.
+LogCook: Display: 	CookWorker     0: 1042 packages remain.
+LogCook: Display: 	CookWorker     1: 1673 packages remain.
+LogCook: Display: Cooked packages 6558 Packages Remain 2217 Total 8775
+LogCook: Display: Cooked packages 6891 Packages Remain 1884 Total 8775
+LogCook: Display: Cook Diagnostics: OpenFileHandles=5248, VirtualMemory=2994MiB
+LogCook: Display: 	CookWorker Local: 0 packages remain.
+LogCook: Display: 	CookWorker     0: 903 packages remain.
+LogCook: Display: 	CookWorker     1: 981 packages remain.
+LogCook: Display: [CookWorker 1]: Cooked packages 0 Packages Remain 2565 Total 2565
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogTexture: Display: [CookWorker 1]: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+LogCook: Display: [CookWorker 1]: Cooked packages 522 Packages Remain 2043 Total 2565
+LogText: Warning: [CookWorker 1]: Saving FText "" which has been initialized from FString at cook time resave of source package /JunoSkypark/Abilities/GrantItem/S_GrantItemAbilityParams may fix issue.
+LogText: Warning: [CookWorker 1]: Saving FText "" which has been initialized from FString at cook time resave of source package /JunoSkypark/Abilities/GrantItem/S_GrantItemAbilityParams may fix issue.
+LogText: Warning: [CookWorker 1]: Saving FText "" which has been initialized from FString at cook time resave of source package /JunoSkypark/Abilities/GrantItem/S_GrantItemAbilityParams may fix issue.
+LogCook: Display: [CookWorker 1]: Cooked packages 1104 Packages Remain 1461 Total 2565
+LogCook: Display: [CookWorker 1]: Cooked packages 1375 Packages Remain 1190 Total 2565
+LogAnimation: Warning: [CookWorker 1]: AnimMontage (AnimMontage /M2Content/Animations/Andor_Loco/Emotes/AM_Andor_Emote_ChairSit1_Breathe.AM_Andor_Emote_ChairSit1_Breathe) contains a Segment for Slot (FullBody) for which the playable length 7.666667 is out-of-sync with the represented AnimationSequence its length 11.800000 (AnimSequence /M2Content/Animations/Andor_Loco/Emotes/AS_Andor_Emote_ChairSit1_Loop.AS_Andor_Emote_ChairSit1_Loop). Please up-date the segment and resave.
+LogCook: Display: [CookWorker 1]: Cooked packages 1520 Packages Remain 1045 Total 2565
+LogCook: Display: [CookWorker 1]: Cooked packages 1664 Packages Remain 901 Total 2565
+LogCook: Display: 836 packages retracted from CookWorker 1 and distributed to idle workers { CookWorker Local }.
+LogCook: Display: 	CookWorker Local: 836 packages remain.
+LogCook: Display: 	CookWorker     0: 903 packages remain.
+LogCook: Display: 	CookWorker     1: 66 packages remain.
+LogCook: Display: [CookWorker 0]: Cooked packages 0 Packages Remain 2571 Total 2571
+LogMorpheus: Display: [CookWorker 0]: Serialising MorpheusActorMetadataDatabase.
+LogMorpheus: Display: [CookWorker 0]: Serialising MorpheusActorMetadataDatabase.
+LogMorpheus: Display: [CookWorker 0]: Serialising MorpheusActorMetadataDatabase.
+LogAnimation: Warning: [CookWorker 0]: PoseAsset /M2Content/Animations/Facial/PoseAsset_Andor_Face_ARKit_01.PoseAsset_Andor_Face_ARKit_01 is out-of-date with its source animation /M2Content/Animations/Facial/AS_Andor_Face_ARKit_Poses_01.AS_Andor_Face_ARKit_Poses_01 F1B5CBD3179226CF4B7780227251F942 vs 76D788BF1DD84CC35C33E571E783ED99
+LogCook: Display: [CookWorker 0]: Cooked packages 244 Packages Remain 1042 Total 1286
+LogCook: Display: [CookWorker 0]: Cooked packages 368 Packages Remain 918 Total 1286
+LogAnimation: Warning: PoseAsset /M2Content/Animations/Facial/PoseAsset_Andor_Face_ARKit_01.PoseAsset_Andor_Face_ARKit_01 is out-of-date with its source animation /M2Content/Animations/Facial/AS_Andor_Face_ARKit_Poses_01.AS_Andor_Face_ARKit_Poses_01 F1B5CBD3179226CF4B7780227251F942 vs 76D788BF1DD84CC35C33E571E783ED99
+LogCook: Display: Cooked packages 6971 Packages Remain 1805 Total 8776
+LogCook: Display: Loading secondary levels for package 'NatCommTestGym'
+LogCook: Display: Loading secondary levels for package 'Skypark_P'
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Core\ControlPanels\BPM_OrbMovementControls.uasset: Invalid GameplayTag Capabilities.OrbControls found in object K2Node_CallFunction_9.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Gameplay.umap: Invalid GameplayTag Capabilities.Repulsor.IrisAccess found in property /JunoSkypark/Core/Areas/BPM_RepulsorArea.BPM_RepulsorArea_C:AccessCapability.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_Presentation.umap: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_Presentation.umap: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Activities\BPM_OrbPresentationActivity.uasset: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Activities\BPM_QuizActivity.uasset: Invalid GameplayTag Activities.Parkland.Orb.Quiz found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activities.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_ArtCompetition.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_ArtCompetition.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Inventory\DroneCam\BPM_DroneCamPawn.uasset: Invalid GameplayTag Capabilities.Inventory.ItemControlledQuickbarInputs found in property /Script/JunoCapabilities.JM_CapabilitiesComponent:Capabilities.
+LogCook: Display: Cooked packages 7207 Packages Remain 1569 Total 8776
+LogLinker: Display: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\UI\Approachability\WBP_Approachability_InteractionMenu.uasset: CreateExport: Failed to load Parent for Function /JunoSkypark/UI/Approachability/WBP_Approachability_InteractionMenu.WBP_Approachability_InteractionMenu_C:AddBackButton; removing parent information, but keeping function
+LogAnimation: Warning: [CookWorker 1]: PoseAsset /M2Content/Animations/Facial/PoseAsset_Andor_Face_ARKit_01.PoseAsset_Andor_Face_ARKit_01 is out-of-date with its source animation /M2Content/Animations/Facial/AS_Andor_Face_ARKit_Poses_01.AS_Andor_Face_ARKit_Poses_01 F1B5CBD3179226CF4B7780227251F942 vs 76D788BF1DD84CC35C33E571E783ED99
+LogCook: Display: [CookWorker 1]: Cooked packages 1680 Packages Remain 49 Total 1729
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Inventory\DroneCam\BPM_DroneCamPawn.uasset: Invalid GameplayTag Capabilities.Inventory.ItemControlledQuickbarInputs found in property /Script/JunoCapabilities.JM_CapabilitiesComponent:Capabilities.
+LogCook: Display: [CookWorker 1]: Cooked packages 1721 Packages Remain 8 Total 1729
+LogCook: Display: Loading secondary levels for package 'WorldTravel_TestMap'
+LogCook: Display: Idle CookWorkers: { CookWorker 1 }. Retracting 394 packages from CookWorker Local to distribute to the idle CookWorkers.
+LogCook: Display: 	CookWorker Local: 789 packages remain.
+LogCook: Display: 	CookWorker     0: 519 packages remain.
+LogCook: Display: 	CookWorker     1: 0 packages remain.
+LogCook: Display: 394 packages retracted from CookWorker Local and distributed to idle workers { CookWorker 1 }.
+LogCook: Display: 	CookWorker Local: 395 packages remain.
+LogCook: Display: 	CookWorker     0: 519 packages remain.
+LogCook: Display: 	CookWorker     1: 394 packages remain.
+LogCook: Display: [CookWorker 0]: Cooked packages 517 Packages Remain 769 Total 1286
+LogCook: Display: [CookWorker 0]: Cooked packages 576 Packages Remain 710 Total 1286
+LogCook: Display: [CookWorker 0]: Cooked packages 592 Packages Remain 694 Total 1286
+LogCook: Display: [CookWorker 0]: Cooked packages 688 Packages Remain 598 Total 1286
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_STYLISEDHosta_01 in PCD3D_SM6, Low, SM6, Game (DDC key hash: ba9a48d4344b687bc2b452c33e4c21a414c5a806), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_STYLISEDHosta_01.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_STYLISEDHosta_01 in PCD3D_SM6, Medium, SM6, Game (DDC key hash: 253b8a9884f0d22363f88ed5813971098312f262), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_STYLISEDHosta_01.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_STYLISEDHosta_01 in PCD3D_SM6, Default, SM6, Game (DDC key hash: 6b49f4e2dee344ae7e887369d3d6f637f7e1b5f0), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_STYLISEDHosta_01.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_STYLISEDHosta_01 in VULKAN_SM5, Low, SM5, Game (DDC key hash: 026ab7a316ff5ac426439e1dfc416fc88e1ef8ae), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_STYLISEDHosta_01.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_STYLISEDHosta_01 in VULKAN_SM5, Medium, SM5, Game (DDC key hash: ea74def047a142222f55da341bb770cfa2588787), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_STYLISEDHosta_01.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_STYLISEDHosta_01 in VULKAN_SM5, Default, SM5, Game (DDC key hash: 19cf07c4cb5643dd91cac80b774a2519fac683ac), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_STYLISEDHosta_01.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogCook: Display: Cooked packages 7710 Packages Remain 1067 Total 8777
+LogCook: Display: Loading secondary levels for package 'StartupMap'
+LogCook: Display: Loading secondary levels for package 'TestMap'
+LogCook: Display: Cooked packages 8004 Packages Remain 773 Total 8777
+LogCook: Display: Idle CookWorkers: { CookWorker 0 }. Retracting 197 packages from CookWorker 1 to distribute to the idle CookWorkers.
+LogCook: Display: 	CookWorker Local: 363 packages remain.
+LogCook: Display: 	CookWorker     0: 0 packages remain.
+LogCook: Display: 	CookWorker     1: 394 packages remain.
+LogCook: Display: [CookWorker 0]: Cooked packages 768 Packages Remain 518 Total 1286
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_01PlantsMasterInstance in PCD3D_SM6, Low, SM6, Game (DDC key hash: b1df7ba7b94d816ef447dcf7c0bf375602b4392c), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_01PlantsMasterInstance.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_01PlantsMasterInstance in PCD3D_SM6, Medium, SM6, Game (DDC key hash: 253893082d425c8ff3a46767181552016c03836e), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_01PlantsMasterInstance.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_01PlantsMasterInstance in PCD3D_SM6, Default, SM6, Game (DDC key hash: 116fc6a1712ba8f86bfc461a33446448176e2abb), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_01PlantsMasterInstance.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_01PlantsMasterInstance in VULKAN_SM5, Low, SM5, Game (DDC key hash: 6b02d5d69b4237bac060fef3871a7f4ab04ab8e2), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_01PlantsMasterInstance.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_01PlantsMasterInstance in VULKAN_SM5, Medium, SM5, Game (DDC key hash: 461cd44809d300a2417c757dc79e5bd76651fce7), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_01PlantsMasterInstance.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for MI_01PlantsMasterInstance in VULKAN_SM5, Default, SM5, Game (DDC key hash: 019897eccb346e86555013af985a56201dc8e3b7), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\MI_01PlantsMasterInstance.uasset: Failed to compile Material Instance with Base M_PlantsMasterMaterial for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for M_PlantsMasterMaterial in PCD3D_SM6, Low, SM6, Game (DDC key hash: 8f9892f7d7f36ba7a9cfa2401217666107d3faef), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\M_PlantsMasterMaterial.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for M_PlantsMasterMaterial in PCD3D_SM6, Medium, SM6, Game (DDC key hash: 3155b3f6cb02cbcea0e8616eea1f485795c564d2), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\M_PlantsMasterMaterial.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for M_PlantsMasterMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: dded7e76e385e2794f9826d4d829274b259d306b), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\M_PlantsMasterMaterial.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for M_PlantsMasterMaterial in VULKAN_SM5, Low, SM5, Game (DDC key hash: 301f438a39022bb8b465f7a43b9203b933c05210), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\M_PlantsMasterMaterial.uasset: Failed to compile Material for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for M_PlantsMasterMaterial in VULKAN_SM5, Medium, SM5, Game (DDC key hash: ef8057fa8bf38e04350899d2a1c3f1f806a2b1bf), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\M_PlantsMasterMaterial.uasset: Failed to compile Material for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Display: [CookWorker 0]: Missing cached shadermap for M_PlantsMasterMaterial in VULKAN_SM5, Default, SM5, Game (DDC key hash: e66d50df32d8885463720aed70668aa14cf4bf69), compiling.
+LogMaterial: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Environment\Flora\M_PlantsMasterMaterial.uasset: Failed to compile Material for platform SF_VULKAN_SM5, Default Material will be used in game.
+	(Node Rotator) Arithmetic between types LWCVector3 and float2 are undefined
+	(Node Rotator) Invalid input types: FLWCVector3, float2
+
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: [CookWorker 0]: Cooking a material resource (in M_PlantsMasterMaterial hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogCook: Display: [CookWorker 0]: Cooked packages 1216 Packages Remain 70 Total 1286
+LogCook: Display: [CookWorker 0]: Cook Diagnostics: OpenFileHandles=3620, VirtualMemory=3653MiB
+LogCook: Display: Cooked packages 8075 Packages Remain 702 Total 8777
+LogCook: Display: Loading secondary levels for package 'Venue_Orb_Env'
+LogCook: Display: [CookWorker 1]: Cook Diagnostics: OpenFileHandles=3290, VirtualMemory=2882MiB
+LogCook: Display: [CookWorker 1]: Cooked packages 1729 Packages Remain 394 Total 2123
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_ArtCompetition.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_ArtCompetition.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_Presentation.umap: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_Presentation.umap: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogCook: Display: [CookWorker 1]: Loading secondary levels for package 'Venue_Orb_Activity_Quiz'
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Activities\BPM_OrbPresentationActivity.uasset: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Activities\BPM_QuizActivity.uasset: Invalid GameplayTag Activities.Parkland.Orb.Quiz found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activities.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogCook: Display: Cooked packages 8171 Packages Remain 606 Total 8777
+LogCook: Display: 197 packages retracted from CookWorker 1 and distributed to idle workers { CookWorker 0, CookWorker Local }.
+LogCook: Display: 	CookWorker Local: 99 packages remain.
+LogCook: Display: 	CookWorker     0: 98 packages remain.
+LogCook: Display: 	CookWorker     1: 190 packages remain.
+LogCook: Display: Cooked packages 8455 Packages Remain 322 Total 8777
+LogCook: Display: Cooked packages 8537 Packages Remain 240 Total 8777
+LogCook: Display: Idle CookWorkers: { CookWorker Local }. Retracting 67 packages from CookWorker 1 to distribute to the idle CookWorkers.
+LogCook: Display: 	CookWorker Local: 0 packages remain.
+LogCook: Display: 	CookWorker     0: 82 packages remain.
+LogCook: Display: 	CookWorker     1: 134 packages remain.
+LogCook: Display: Cooked packages 8695 Packages Remain 82 Total 8777
+LogCook: Display: Cooked packages 8711 Packages Remain 66 Total 8777
+LogCook: Display: Cook Diagnostics: OpenFileHandles=7911, VirtualMemory=4402MiB
+LogCook: Display: 	CookWorker Local: 0 packages remain.
+LogCook: Display: 	CookWorker     0: 66 packages remain.
+LogCook: Display: 	CookWorker     1: 0 packages remain.
+LogCook: Display: Retraction results message received from CookWorker 1; no packages were available for retraction.
+LogCook: Display: 	CookWorker Local: 0 packages remain.
+LogCook: Display: 	CookWorker     0: 66 packages remain.
+LogCook: Display: 	CookWorker     1: 0 packages remain.
+LogCook: Display: [CookWorker 1]: Cooked packages 1753 Packages Remain 370 Total 2123
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Core\ControlPanels\BPM_OrbMovementControls.uasset: Invalid GameplayTag Capabilities.OrbControls found in object K2Node_CallFunction_9.
+LogCook: Display: [CookWorker 1]: Cooked packages 1809 Packages Remain 117 Total 1926
+LogGameplayTags: Warning: [CookWorker 1]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\M2Content\Content\UI\QuickbarItems\WBP_QuickbarWidget_Pointer.uasset: Invalid GameplayTag Capabilities.Inventory.ItemControlledQuickbarInputs found in object K2Node_CallFunction_20.
+LogCook: Display: [CookWorker 0]: Cooked packages 1286 Packages Remain 98 Total 1384
+LogCook: Display: [CookWorker 0]: Cooked packages 1318 Packages Remain 66 Total 1384
+LogCook: Display: Cooked packages 8743 Packages Remain 34 Total 8777
+LogCook: Display: Cooked packages 8769 Packages Remain 8 Total 8777
+LogGameplayTags: Warning: [CookWorker 0]: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Core\ControlPanels\BPM_OrbMovementControls.uasset: Invalid GameplayTag Capabilities.OrbControls found in object K2Node_CallFunction_9.
+LogCook: Display: [CookWorker 0]: Cooked packages 1350 Packages Remain 34 Total 1384
+LogCook: Display: [CookWorker 0]: CookWorkerClient received CookComplete message from Director. Flushing messages and shutting down.
+LogCook: Display: [CookWorker 1]: CookWorkerClient received CookComplete message from Director. Flushing messages and shutting down.
+LogCook: Display: Cooked packages 8777 Packages Remain 0 Total 8777
+LogCook: Display: Cook Diagnostics: OpenFileHandles=7911, VirtualMemory=4438MiB
+LogCook: Display: 	CookWorker Local: 0 packages remain.
+LogCook: Display: Finishing up...
+LogAssetRegistryGenerator: Display: Saving asset registry v17.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxServer/M2Development/Metadata/DevelopmentAssetRegistry.bin num assets 9774, size is 6718.50kb, XxHash64 = llu, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 9337, size is 3294.76kb
+LogAssetRegistryGenerator: Display: Done saving asset registry. Took 0.6 seconds.
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'M2Development_Chunk0' (SF_VULKAN_SM5-VULKAN_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 428, Unique Shadermaps: 512 (119.63%)
+LogShaderLibrary: Display: Total Shaders: 12368, Unique Shaders: 7229 (58.45%)
+LogShaderLibrary: Display: Total Shader Size: 55.73mb, Unique Shaders Size: 36.04mb (64.66%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 23
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 250
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     152, 129, 95, 84, 83, 70, 70, 70, 70, 70
+LogShaderLibrary: Display: Textual dump saved to '../../../M2Development/Saved/Shaders/SF_VULKAN_SM5-VULKAN_SM5/ShaderDebug-M2Development_Chunk0-SF_VULKAN_SM5-VULKAN_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogAssetRegistryGenerator: Display: Saving asset registry v17.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/DevelopmentAssetRegistry.bin num assets 9774, size is 8297.95kb, XxHash64 = llu, waited on hash -625696439429973821208181159153418702669513570362840030844378244823599705181168019476798988252616625564595714676031629955087981969477595130606375360061631260767909449910094961454663842367705541245284308600531569016845080692254584292155161510412288.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 9345, size is 3295.63kb
+LogAssetRegistryGenerator: Display: Done saving asset registry. Took 0.7 seconds.
+LogCook: Display: Saved scl.csv C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-SF_VULKAN_SM5.shk for platform LinuxClient, 185392 bytes
+LogCook: Display: Saved scl.csv C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-SF_VULKAN_SM5.shk for platform LinuxClient, 1834841 bytes
+LogCook: Display: ---- Running UShaderPipelineCacheToolsCommandlet for platform LinuxClient  shader format SF_VULKAN_SM5
+LogCook: Display:   With Args: build  "C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-SF_VULKAN_SM5.shk" "C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-SF_VULKAN_SM5.shk" -chunkinfodir="C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Content"  -library=M2Development  -platform=LinuxClient "C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Content/PipelineCaches/Linux/M2Development_SF_VULKAN_SM5.stable.upipelinecache"
+LogShaderPipelineCacheTools: Display: Sorting input stable cache files into chronological order for merge processing...
+LogShaderPipelineCacheTools: Display: Re-deduplicated into 0 binary PSOs [Usage Mask Merged = 0].
+LogShaderPipelineCacheTools: Display: Loading C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-SF_VULKAN_SM5.shk...
+LogShaderPipelineCacheTools: Display: Loading C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-SF_VULKAN_SM5.shk...
+LogShaderPipelineCacheTools: Display: Loaded 4982 shader info lines from C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-SF_VULKAN_SM5.shk.
+LogShaderPipelineCacheTools: Display: Loaded 78274 shader info lines from C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-SF_VULKAN_SM5.shk.
+LogShaderPipelineCacheTools: Display: Loaded 83256 unique shader info lines total.
+LogShaderPipelineCacheTools: Display: Running sanity check (consistency of vertex format).
+LogShaderPipelineCacheTools: Display: 0 vertex shaders are used with an inconsistent vertex format
+LogShaderPipelineCacheTools: Display: === Sanitizing results ===
+LogShaderPipelineCacheTools: Display: Before sanitization: ....................................................................     43 PSOs
+LogShaderPipelineCacheTools: Display: Filtered out due to inconsistent vertex declaration for the same vertex shader:..........      0 PSOs
+LogShaderPipelineCacheTools: Display: Filtered out due to VS being possibly incompatible with an empty vertex declaration:.....      0 PSOs
+LogShaderPipelineCacheTools: Display: Filtered out due to using possible unsupported RHI features:.............................      0 PSOs
+LogShaderPipelineCacheTools: Display: -----
+LogShaderPipelineCacheTools: Display: Number of PSOs after sanity checks:......................................................     43 PSOs
+LogShaderPipelineCacheTools: Display: Wrote 43 binary PSOs (graphics: 0 compute: 43 RT: 0), (6KB) to C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Content/PipelineCaches/Linux/M2Development_SF_VULKAN_SM5.stable.upipelinecache
+LogCook: Display: ---- Done running UShaderPipelineCacheToolsCommandlet for platform LinuxClient
+LogCook: Display: Copying the binary PSO cache file C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Content/PipelineCaches/Linux/M2Development_SF_VULKAN_SM5.stable.upipelinecache to C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/LinuxClient/M2Development/Metadata/PipelineCaches/M2Development_SF_VULKAN_SM5.stable.upipelinecache.
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'M2Development_Chunk0' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 428, Unique Shadermaps: 517 (120.79%)
+LogShaderLibrary: Display: Total Shaders: 16163, Unique Shaders: 8787 (54.36%)
+LogShaderLibrary: Display: Total Shader Size: 355.55mb, Unique Shaders Size: 204.35mb (57.48%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 27
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 370
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     201, 154, 128, 112, 95, 84, 84, 84, 84, 83
+LogShaderLibrary: Display: Textual dump saved to '../../../M2Development/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-M2Development_Chunk0-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogAssetRegistryGenerator: Display: Saving asset registry v17.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/DevelopmentAssetRegistry.bin num assets 9774, size is 8297.96kb, XxHash64 = llu, waited on hash -0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 9345, size is 3295.63kb
+LogAssetRegistryGenerator: Display: Done saving asset registry. Took 0.7 seconds.
+LogCook: Display: Saved scl.csv C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-PCD3D_SM6.shk for platform WindowsClient, 210539 bytes
+LogCook: Display: Saved scl.csv C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-PCD3D_SM6.shk for platform WindowsClient, 2064656 bytes
+LogCook: Display: ---- Running UShaderPipelineCacheToolsCommandlet for platform WindowsClient  shader format PCD3D_SM6
+LogCook: Display:   With Args: build  "C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-PCD3D_SM6.shk" "C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-PCD3D_SM6.shk" -chunkinfodir="C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Content"  -library=M2Development  -platform=WindowsClient "C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Content/PipelineCaches/Windows/M2Development_PCD3D_SM6.stable.upipelinecache"
+LogShaderPipelineCacheTools: Display: Sorting input stable cache files into chronological order for merge processing...
+LogShaderPipelineCacheTools: Display: Re-deduplicated into 0 binary PSOs [Usage Mask Merged = 0].
+LogShaderPipelineCacheTools: Display: Loading C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-PCD3D_SM6.shk...
+LogShaderPipelineCacheTools: Display: Loading C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-PCD3D_SM6.shk...
+LogShaderPipelineCacheTools: Display: Loaded 5633 shader info lines from C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-Global-PCD3D_SM6.shk.
+LogShaderPipelineCacheTools: Display: Loaded 88197 shader info lines from C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/ShaderStableInfo-M2Development-PCD3D_SM6.shk.
+LogShaderPipelineCacheTools: Display: Loaded 93830 unique shader info lines total.
+LogShaderPipelineCacheTools: Display: Running sanity check (consistency of vertex format).
+LogShaderPipelineCacheTools: Display: 0 vertex shaders are used with an inconsistent vertex format
+LogShaderPipelineCacheTools: Display: === Sanitizing results ===
+LogShaderPipelineCacheTools: Display: Before sanitization: ....................................................................     43 PSOs
+LogShaderPipelineCacheTools: Display: Filtered out due to inconsistent vertex declaration for the same vertex shader:..........      0 PSOs
+LogShaderPipelineCacheTools: Display: Filtered out due to VS being possibly incompatible with an empty vertex declaration:.....      0 PSOs
+LogShaderPipelineCacheTools: Display: Filtered out due to using possible unsupported RHI features:.............................      0 PSOs
+LogShaderPipelineCacheTools: Display: -----
+LogShaderPipelineCacheTools: Display: Number of PSOs after sanity checks:......................................................     43 PSOs
+LogShaderPipelineCacheTools: Display: Wrote 43 binary PSOs (graphics: 0 compute: 43 RT: 0), (6KB) to C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Content/PipelineCaches/Windows/M2Development_PCD3D_SM6.stable.upipelinecache
+LogCook: Display: ---- Done running UShaderPipelineCacheToolsCommandlet for platform WindowsClient
+LogCook: Display: Copying the binary PSO cache file C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Content/PipelineCaches/Windows/M2Development_PCD3D_SM6.stable.upipelinecache to C:/dev/M2Unreal/Game/M2Development/Saved/Cooked/WindowsClient/M2Development/Metadata/PipelineCaches/M2Development_PCD3D_SM6.stable.upipelinecache.
+LogCook: Display: Finalize package store(s)...
+LogCook: Display: Done finalizing package store(s)
+LogCook: Display: Cook by the book total time in tick 71.118462s total time 77.957253
+LogCook: Display: Peak Used virtual 4759 MiB Peak Used physical 4785 MiB
+LogCook: Display: Packages Cooked: 8394, Packages Iteratively Skipped: 0, Packages Skipped by Platform: 383, Total Packages: 8777
+LogCook: Display: Hierarchy Timer Information:
+LogCook: Display:   Root: 0.000s (0)
+LogCook: Display:     CleanSandbox: 0.213s (1)
+LogCook: Display:     CollectFilesToCook: 0.161s (1)
+LogCook: Display:       CookModificationDelegate: 0.001s (1)
+LogCook: Display:       SearchForPackageOnDisk: 0.153s (4)
+LogCook: Display:     GenerateLongPackageName: 0.001s (1)
+LogCook: Display:     TickMainCookLoop: 71.118s (1)
+LogCook: Display:       PumpPollables: 0.651s (108)
+LogCook: Display:       PumpRequests: 0.142s (174)
+LogCook: Display:       LoadPackageForCooking: 13.755s (5467)
+LogCook: Display:       SavingPackages: 16.773s (841)
+LogCook: Display:         PollPendingCookedPlatformDatas: 0.439s (447263)
+LogCook: Display:         PrepareSave: 0.282s (442032)
+LogCook: Display:         PrecachePlatformDataForNextPackage: 0.396s (5460)
+LogCook: Display:           PrepareSave: 0.395s (6001)
+LogCook: Display:         SaveCookedPackage: 15.198s (5467)
+LogCook: Display:           GEditorSavePackage: 7.815s (16293)
+LogCook: Display:             VerifyCanCookPackage: 0.054s (15984)
+LogCook: Display:           TargetDomainDependencies: 0.003s (16293)
+LogCook: Display:         ClearAllCachedCookedPlatformData: 0.109s (5467)
+LogCook: Display:       PostLoadPackageFixup: 4.217s (19)
+LogCook: Display:       WaitForAsync: 35.336s (123675)
+LogCook: Display:     SavingCurrentIniSettings: 0.027s (1)
+LogCook: Display:       ProcessingAccessedStrings: 0.004s (3)
+LogCook: Display:     SavingAssetRegistry: 3.566s (1)
+LogCook: Display:       BuildChunkManifest: 0.225s (3)
+LogCook: Display:       SaveManifests: 0.491s (3)
+LogCook: Display:       SaveRealAssetRegistry: 1.972s (3)
+LogCook: Display:       WriteCookerOpenOrder: 0.545s (3)
+LogCook: Display:     FinalizePackageStore: 0.039s (1)
+LogCook: Display: Misc Cook Stats
+LogCook: Display: ===============
+LogCook: Display: CookDirector
+LogCook: Display:     LocalWorker IdleTime=33.1s
+LogCook: Display:     CookWorker 0 IdleTime=5.4s
+LogCook: Display:     CookWorker 1 IdleTime=7.1s
+LogCook: Display: NiagaraShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: OpenColorIOShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: ShaderCompiler
+LogCook: Display:     BlockingTimeSec=0.000092
+LogCook: Display:     AsyncCompileTimeSec=0.000000
+LogCook: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+LogCook: Display:     GlobalBeginCompileShaderCalls=0
+LogCook: Display:     ProcessAsyncResultsTimeSec=0.000211
+LogCook: Display: GlobalShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: Material
+LogCook: Display:     MeshMaterialShadersCompiled=0
+LogCook: Display:     FinishCacheShadersSec=0.095755
+LogCook: Display:     MaterialShadersCompiled=0
+LogCook: Display:     MaterialShaderMapSubmitCompileJobsTime=0.000000
+LogCook: Display:     MaterialShaderMapSubmitCompileCalls=0
+LogCook: Display:     MaterialInstanceUpdateCachedExpressionDataSec=0.025094
+LogCook: Display:     MaterialInstancePostLoadSec=1.055264
+LogCook: Display:     MaterialUpdateCachedExpressionDataSec=0.027365
+LogCook: Display:     MaterialTranslateCalls=0
+LogCook: Display:     MaterialTranslateTimeSec=0.000000
+LogCook: Display: Package.Load
+LogCook: Display:     NumInlineLoads=2784
+LogCook: Display:     NumPackagesLoaded=8260
+LogCook: Display:     LoadPackageTimeSec=18.446993
+LogCook: Display: Package.Save
+LogCook: Display:     NumPackagesIterativelySkipped=0
+LogCook: Display:     NumPackagesSaved=16293
+LogCook: Display:     SavePackageTimeSec=7.500749
+LogCook: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCook: Display:     TagPackageExportsTimeSec=0.000000
+LogCook: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCook: Display:     ResetLoadersTimeSec=0.000000
+LogCook: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCook: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCook: Display:     SerializeImportsTimeSec=0.000000
+LogCook: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCook: Display:     SerializeExportsTimeSec=0.000000
+LogCook: Display:     SerializeBulkDataTimeSec=0.027893
+LogCook: Display:     AsyncWriteTimeSec=0.000000
+LogCook: Display:     MBWritten=0.000000
+LogCook: Display: CookOnTheFlyServer
+LogCook: Display:     PeakRequestQueueSize=3631
+LogCook: Display:     PeakLoadQueueSize=56
+LogCook: Display:     PeakSaveQueueSize=2584
+LogCook: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCook: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCook: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCook: Display: Package.DiffTotal
+LogCook: Display:     NumberOfDifferentPackages=0
+LogCook: Display:     DifferentPackagesSizeMB=0.000000
+LogCook: Display:     NumberOfDifferencesInPackages=0
+LogCook: Display:     PackageDifferencesSizeMB=0.000000
+LogCook: Display: UnversionedProperties
+LogCook: Display:     SavedStructs=0
+LogCook: Display:     SavedMB=0
+LogCook: Display:     EquivalentTaggedMB=0
+LogCook: Display:     CompressionRatio=-nan(ind)
+LogCook: Display:     BitfieldWasteKB=0
+LogCook: Display:
+LogCook: Display: Cook Profile
+LogCook: Display: ============
+LogCook: Display:  0.CookWallTimeSec=83.192719
+LogCook: Display:  0. 0.StartupWallTimeSec=5.196337
+LogCook: Display:  0. 1.CookByTheBookTimeSec=0.000000
+LogCook: Display:  0. 1. 0.StartCookByTheBookTimeSec=2.883048
+LogCook: Display:  0. 1. 0. 0.BlockOnAssetRegistryTimeSec=0.526306
+LogCook: Display:  0. 1. 0. 1.GameCookModificationDelegateTimeSec=0.001299
+LogCook: Display:  0. 1. 1.TickCookOnTheSideTimeSec=0.000000
+LogCook: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=13.756375
+LogCook: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=15.198130
+LogCook: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCook: Display:  0. 1. 1. 2.TickCookOnTheSidePrepareSaveTimeSec=0.691889
+LogCook: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+LogCook: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCook: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000032
+LogCook: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000096
+LogCook: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000007
+LogCook: Display:  0. 1. 7.TickLoopFlushRenderingCommandsTimeSec=0.003100
+LogCook: Display:  0. 1. 8.TargetPlatforms=LinuxServer+LinuxClient+WindowsClient
+LogCook: Display:  0. 1. 9.CookProject=M2Development
+LogCook: Display:  0. 1. 10.CookCultures=
+LogCook: Display:  0. 1. 11.IsCookAll=false
+LogCook: Display:  0. 1. 12.IsCookOnTheFly=false
+LogCook: Display:  0. 1. 13.IsIterativeCook=false
+LogCook: Display:  0. 1. 14.IsUnversioned=true
+LogCook: Display:  0. 1. 15.CookLabel=
+LogCook: Display:  0. 1. 16.IsFastCook=false
+LogCook: Display:
+LogCook: Display: DDC Summary Stats
+LogCook: Display: =================
+LogCook: Display: BackEnd         =DerivedDataBackendGraph
+LogCook: Display: HasLocalCache   =      true
+LogCook: Display: HasSharedCache  =     false
+LogCook: Display: HasCloudCache   =     false
+LogCook: Display: HasZenCache     =     false
+LogCook: Display: TotalGetHits    =     19868
+LogCook: Display: TotalGetMisses  =         0
+LogCook: Display: TotalGets       =     19868
+LogCook: Display: TotalGetHitPct  =  1.000000
+LogCook: Display: GetMissPct      =  0.000000
+LogCook: Display: TotalPutHits    =         0
+LogCook: Display: TotalPutMisses  =         0
+LogCook: Display: TotalPuts       =         0
+LogCook: Display: TotalPutHitPct  =  0.000000
+LogCook: Display: PutMissPct      =  0.000000
+LogCook: Display: LocalGetHits    =     19868
+LogCook: Display: LocalGetTotal   =     19868
+LogCook: Display: LocalGetHitPct  =  1.000000
+LogCook: Display: SharedGetHits   =         0
+LogCook: Display: SharedGetTotal  =         0
+LogCook: Display: SharedGetHitPct =  0.000000
+LogCook: Display: ZenLocalGetHits =         0
+LogCook: Display: ZenLocalGetTotal=         0
+LogCook: Display: ZenLocalGetHitPct=  0.000000
+LogCook: Display: ZenRemoteGetHits=         0
+LogCook: Display: ZenRemoteGetTotal=         0
+LogCook: Display: ZenRemoteGetHitPct=  0.000000
+LogCook: Display: CloudGetHits    =         0
+LogCook: Display: CloudGetTotal   =         0
+LogCook: Display: CloudGetHitPct  =  0.000000
+LogCook: Display: LocalLatency    =  0.000000
+LogCook: Display: LocalReadSpeed  =1193.273255
+LogCook: Display: LocalWriteSpeed =  0.000000
+LogCook: Display: SharedLatency   =  0.000000
+LogCook: Display: SharedReadSpeed =  0.000000
+LogCook: Display: SharedWriteSpeed=  0.000000
+LogCook: Display: CloudLatency    =  0.000000
+LogCook: Display: CloudReadSpeed  =  0.000000
+LogCook: Display: CloudWriteSpeed =  0.000000
+LogCook: Display:
+LogCook: Display: DDC Resource Stats
+LogCook: Display: =======================================================================================================
+LogCook: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCook: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCook: Display: Texture                                         1.92                   0.00             0        733.00
+LogCook: Display: BulkDataList                                    1.15                   0.00             0          1.68
+LogCook: Display: GlobalShader                                    0.35                   0.35             0         76.86
+LogCook: Display: StaticMesh                                      0.15                   0.06             0         81.72
+LogCook: Display: DistanceField                                   0.14                   0.05             0        112.15
+LogCook: Display: MaterialShader                                  0.13                   0.09             0        115.24
+LogCook: Display: Audio                                           0.11                   0.00             0         12.31
+LogCook: Display: CardRepresentation                              0.10                   0.02             0          0.32
+LogCook: Display: NavCollision                                    0.04                   0.00             0          1.94
+LogCook: Display: SkeletalMesh                                    0.02                   0.00             0         39.87
+LogCook: Display: BodySetup                                       0.01                   0.03             0         13.63
+LogCook: Display: BulkDataPayloadId                               0.01                   0.00             0          0.01
+LogCook: Display: AnimationSequence                               0.00                   0.00             0          3.70
+LogCook: Display: NiagaraShader                                   0.00                   0.00             0          0.24
+LogCook: Display: SubUV                                           0.00                   0.00             0          0.00
+LogPackageBuildDependencyTracker: Display: Package Accesses (2583 referencing packages with a total of 46817 unique accesses)
+LogCook: Display: Done!
+LogSavePackage: Warning: /M2Content/Audio/System/Tools/BPM_M2_Audio_PlaybackActor imported Serialize:/Engine/EditorResources/AudioIcons/S_AudioComponent.S_AudioComponent, but it was never saved as an export.
+LogSavePackage: Warning: /M2Content/Audio/System/Tools/BPM_M2_Audio_PlaybackActor imported Serialize:/Engine/EditorResources/AudioIcons/S_AudioComponent, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/UI/Approachability/WBP_Approachability_AreaMenuTitle imported Serialize:/Engine/EditorMaterials/Cross.Cross, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/UI/Approachability/WBP_Approachability_AreaMenuTitle imported Serialize:/Engine/EditorMaterials/Cross, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/UI/Settings/WBP_Settings_Skypark imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture.WhiteSquareTexture, but it was never saved as an export.
+LogSavePackage: Warning: /M2Content/UI/Settings/WBP_Settings imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture.WhiteSquareTexture, but it was never saved as an export.
+LogSavePackage: Warning: /M2Content/PDAs/Skins/PDA_Skin_M2Content imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture.WhiteSquareTexture, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/UI/Settings/WBP_Settings_Skypark imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture, but it was never saved as an export.
+LogSavePackage: Warning: /M2Content/UI/Settings/WBP_Settings imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture, but it was never saved as an export.
+LogSavePackage: Warning: /M2Content/PDAs/Skins/PDA_Skin_M2Content imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/Inventory/ItemSettingType/BP_DeviceSetting_SoundList imported Serialize:/Engine/EditorResources/AudioIcons/S_Ambient_Sound_Simple.S_Ambient_Sound_Simple, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/Inventory/ItemSettingType/BP_DeviceSetting_SoundList imported Serialize:/Engine/EditorResources/AudioIcons/S_Ambient_Sound_Simple, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/Maps/Skypark_Landscape imported Serialize:/Engine/EditorLandscapeResources/DataLayer.DataLayer, but it was never saved as an export.
+LogSavePackage: Warning: /JunoSkypark/Maps/Skypark_Landscape imported Serialize:/Engine/EditorLandscapeResources/DataLayer, but it was never saved as an export.
+LogSavePackage: Display: Took 0.017824s to verify the EDL loading graph.
+LogCook: Display: Misc Cook Stats
+LogCook: Display: ===============
+LogCook: Display: CookDirector
+LogCook: Display:     LocalWorker IdleTime=33.1s
+LogCook: Display:     CookWorker 0 IdleTime=5.4s
+LogCook: Display:     CookWorker 1 IdleTime=7.1s
+LogCook: Display: NiagaraShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: OpenColorIOShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: ShaderCompiler
+LogCook: Display:     BlockingTimeSec=0.000092
+LogCook: Display:     AsyncCompileTimeSec=0.000000
+LogCook: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+LogCook: Display:     GlobalBeginCompileShaderCalls=0
+LogCook: Display:     ProcessAsyncResultsTimeSec=0.000211
+LogCook: Display: GlobalShader.Misc
+LogCook: Display:     ShadersCompiled=0
+LogCook: Display: Material
+LogCook: Display:     MeshMaterialShadersCompiled=0
+LogCook: Display:     FinishCacheShadersSec=0.095755
+LogCook: Display:     MaterialShadersCompiled=0
+LogCook: Display:     MaterialShaderMapSubmitCompileJobsTime=0.000000
+LogCook: Display:     MaterialShaderMapSubmitCompileCalls=0
+LogCook: Display:     MaterialInstanceUpdateCachedExpressionDataSec=0.025094
+LogCook: Display:     MaterialInstancePostLoadSec=1.055264
+LogCook: Display:     MaterialUpdateCachedExpressionDataSec=0.027365
+LogCook: Display:     MaterialTranslateCalls=0
+LogCook: Display:     MaterialTranslateTimeSec=0.000000
+LogCook: Display: Package.Load
+LogCook: Display:     NumInlineLoads=2784
+LogCook: Display:     NumPackagesLoaded=8260
+LogCook: Display:     LoadPackageTimeSec=18.446993
+LogCook: Display: Package.Save
+LogCook: Display:     NumPackagesIterativelySkipped=0
+LogCook: Display:     NumPackagesSaved=16293
+LogCook: Display:     SavePackageTimeSec=7.500749
+LogCook: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCook: Display:     TagPackageExportsTimeSec=0.000000
+LogCook: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCook: Display:     ResetLoadersTimeSec=0.000000
+LogCook: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCook: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCook: Display:     SerializeImportsTimeSec=0.000000
+LogCook: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCook: Display:     SerializeExportsTimeSec=0.000000
+LogCook: Display:     SerializeBulkDataTimeSec=0.027893
+LogCook: Display:     AsyncWriteTimeSec=0.000000
+LogCook: Display:     MBWritten=0.000000
+LogCook: Display: CookOnTheFlyServer
+LogCook: Display:     PeakRequestQueueSize=3631
+LogCook: Display:     PeakLoadQueueSize=56
+LogCook: Display:     PeakSaveQueueSize=2584
+LogCook: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCook: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCook: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCook: Display: Package.DiffTotal
+LogCook: Display:     NumberOfDifferentPackages=0
+LogCook: Display:     DifferentPackagesSizeMB=0.000000
+LogCook: Display:     NumberOfDifferencesInPackages=0
+LogCook: Display:     PackageDifferencesSizeMB=0.000000
+LogCook: Display: UnversionedProperties
+LogCook: Display:     SavedStructs=0
+LogCook: Display:     SavedMB=0
+LogCook: Display:     EquivalentTaggedMB=0
+LogCook: Display:     CompressionRatio=-nan(ind)
+LogCook: Display:     BitfieldWasteKB=0
+LogCook: Display:
+LogCook: Display: Cook Profile
+LogCook: Display: ============
+LogCook: Display:  0.CookWallTimeSec=83.214843
+LogCook: Display:  0. 0.StartupWallTimeSec=5.196337
+LogCook: Display:  0. 1.CookByTheBookTimeSec=78.016331
+LogCook: Display:  0. 1. 0.StartCookByTheBookTimeSec=2.883048
+LogCook: Display:  0. 1. 0. 0.BlockOnAssetRegistryTimeSec=0.526306
+LogCook: Display:  0. 1. 0. 1.GameCookModificationDelegateTimeSec=0.001299
+LogCook: Display:  0. 1. 1.TickCookOnTheSideTimeSec=75.083490
+LogCook: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=13.756375
+LogCook: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=15.198130
+LogCook: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCook: Display:  0. 1. 1. 2.TickCookOnTheSidePrepareSaveTimeSec=0.691889
+LogCook: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+LogCook: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCook: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000032
+LogCook: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000096
+LogCook: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000007
+LogCook: Display:  0. 1. 7.TickLoopFlushRenderingCommandsTimeSec=0.003100
+LogCook: Display:  0. 1. 8.TargetPlatforms=LinuxServer+LinuxClient+WindowsClient
+LogCook: Display:  0. 1. 9.CookProject=M2Development
+LogCook: Display:  0. 1. 10.CookCultures=
+LogCook: Display:  0. 1. 11.IsCookAll=false
+LogCook: Display:  0. 1. 12.IsCookOnTheFly=false
+LogCook: Display:  0. 1. 13.IsIterativeCook=false
+LogCook: Display:  0. 1. 14.IsUnversioned=true
+LogCook: Display:  0. 1. 15.CookLabel=
+LogCook: Display:  0. 1. 16.IsFastCook=false
+LogCook: Display:
+LogCook: Display: DDC Summary Stats
+LogCook: Display: =================
+LogCook: Display: BackEnd         =DerivedDataBackendGraph
+LogCook: Display: HasLocalCache   =      true
+LogCook: Display: HasSharedCache  =     false
+LogCook: Display: HasCloudCache   =     false
+LogCook: Display: HasZenCache     =     false
+LogCook: Display: TotalGetHits    =     19868
+LogCook: Display: TotalGetMisses  =         0
+LogCook: Display: TotalGets       =     19868
+LogCook: Display: TotalGetHitPct  =  1.000000
+LogCook: Display: GetMissPct      =  0.000000
+LogCook: Display: TotalPutHits    =         0
+LogCook: Display: TotalPutMisses  =         0
+LogCook: Display: TotalPuts       =         0
+LogCook: Display: TotalPutHitPct  =  0.000000
+LogCook: Display: PutMissPct      =  0.000000
+LogCook: Display: LocalGetHits    =     19868
+LogCook: Display: LocalGetTotal   =     19868
+LogCook: Display: LocalGetHitPct  =  1.000000
+LogCook: Display: SharedGetHits   =         0
+LogCook: Display: SharedGetTotal  =         0
+LogCook: Display: SharedGetHitPct =  0.000000
+LogCook: Display: ZenLocalGetHits =         0
+LogCook: Display: ZenLocalGetTotal=         0
+LogCook: Display: ZenLocalGetHitPct=  0.000000
+LogCook: Display: ZenRemoteGetHits=         0
+LogCook: Display: ZenRemoteGetTotal=         0
+LogCook: Display: ZenRemoteGetHitPct=  0.000000
+LogCook: Display: CloudGetHits    =         0
+LogCook: Display: CloudGetTotal   =         0
+LogCook: Display: CloudGetHitPct  =  0.000000
+LogCook: Display: LocalLatency    =  0.000000
+LogCook: Display: LocalReadSpeed  =1193.273255
+LogCook: Display: LocalWriteSpeed =  0.000000
+LogCook: Display: SharedLatency   =  0.000000
+LogCook: Display: SharedReadSpeed =  0.000000
+LogCook: Display: SharedWriteSpeed=  0.000000
+LogCook: Display: CloudLatency    =  0.000000
+LogCook: Display: CloudReadSpeed  =  0.000000
+LogCook: Display: CloudWriteSpeed =  0.000000
+LogCook: Display:
+LogCook: Display: DDC Resource Stats
+LogCook: Display: =======================================================================================================
+LogCook: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCook: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCook: Display: Texture                                         1.92                   0.00             0        733.00
+LogCook: Display: BulkDataList                                    1.15                   0.00             0          1.68
+LogCook: Display: GlobalShader                                    0.35                   0.35             0         76.86
+LogCook: Display: StaticMesh                                      0.15                   0.06             0         81.72
+LogCook: Display: DistanceField                                   0.14                   0.05             0        112.15
+LogCook: Display: MaterialShader                                  0.13                   0.09             0        115.24
+LogCook: Display: Audio                                           0.11                   0.00             0         12.31
+LogCook: Display: CardRepresentation                              0.10                   0.02             0          0.32
+LogCook: Display: NavCollision                                    0.04                   0.00             0          1.94
+LogCook: Display: SkeletalMesh                                    0.02                   0.00             0         39.87
+LogCook: Display: BodySetup                                       0.01                   0.03             0         13.63
+LogCook: Display: BulkDataPayloadId                               0.01                   0.00             0          0.01
+LogCook: Display: AnimationSequence                               0.00                   0.00             0          3.70
+LogCook: Display: NiagaraShader                                   0.00                   0.00             0          0.24
+LogCook: Display: SubUV                                           0.00                   0.00             0          0.00
+LogPackageBuildDependencyTracker: Display: Package Accesses (2583 referencing packages with a total of 46817 unique accesses)
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogClass: Warning: Map Element Type mismatch in PropertyMetadata of PropertyMetadata - Previous (NameProperty to ByteProperty) Current (NameProperty to StructProperty) for package: /MorpheusPlugin/MorpheusMetadataDatabaseAsset
+LogInit: Display: LogScript: Warning: Script Msg: No world was found for object (/Script/M2Content.Default__ExampleSingleton) passed in to UEngine::GetWorldFromContextObject().
+LogInit: Display: LogConsoleManager: Warning: Console object named 'a.AnimNode.FootLocker.Debug' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+LogInit: Display: LogConsoleManager: Warning: Console object named 'a.AnimNode.FootLocker.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+LogInit: Display: LogPython: Warning: 'MorpheusActor.bHasClientAuthority' and 'MorpheusActor.bHasClientAuthority' have the same name (has_client_authority) when exposed to Python. Rename one of them using 'ScriptName' meta-data (or 'ScriptMethod' or 'ScriptConstant' for extension functions).
+LogInit: Display: LogScript: Warning: Script Msg: No world was found for object (/Script/M2ContentTests.Default__JM_TestPurchaseableManager) passed in to UEngine::GetWorldFromContextObject().
+LogInit: Display: LogCook: Warning: 'ProjectSettings -> PackagingSettings -> Directories to always cook' has invalid element '/Wwise/WwiseTree'
+LogInit: Display: LogCook: Warning: 'ProjectSettings -> PackagingSettings -> Directories to always cook' has invalid element '/Wwise/WwiseTypes'
+LogInit: Display: LogCook: Warning: 'ProjectSettings -> Directories to never cook -> Directories to always cook' has invalid element '/Wwise/WwiseTree'
+LogInit: Display: LogCook: Warning: 'ProjectSettings -> Directories to never cook -> Directories to always cook' has invalid element '/Wwise/WwiseTypes'
+LogInit: Display: LogCook: Warning: Unable to generate long package name, /JunoHighSociety/PDAs/Skins/PDA_Skin_HighSociety. Input '/JunoHighSociety/PDAs/Skins/PDA_Skin_HighSociety' is not a child of an existing mount point.
+LogInit: Display: LogCook: Warning: Unable to find package for cooking /M2Content/Audio/System/Classes/SCL_M2_Input. Instigator: { StartupSoftObjectPath }.
+LogInit: Display: LogAnimation: Warning: PoseAsset /M2Content/Animations/Facial/PoseAsset_Andor_Face_ARKit_01.PoseAsset_Andor_Face_ARKit_01 is out-of-date with its source animation /M2Content/Animations/Facial/AS_Andor_Face_ARKit_Poses_01.AS_Andor_Face_ARKit_Poses_01 F1B5CBD3179226CF4B7780227251F942 vs 76D788BF1DD84CC35C33E571E783ED99
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Core\ControlPanels\BPM_OrbMovementControls.uasset: Invalid GameplayTag Capabilities.OrbControls found in object K2Node_CallFunction_9.
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Gameplay.umap: Invalid GameplayTag Capabilities.Repulsor.IrisAccess found in property /JunoSkypark/Core/Areas/BPM_RepulsorArea.BPM_RepulsorArea_C:AccessCapability.
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_Presentation.umap: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Activities\BPM_OrbPresentationActivity.uasset: Invalid GameplayTag Activities.Parkland.Orb.Presentation found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Activities\BPM_QuizActivity.uasset: Invalid GameplayTag Activities.Parkland.Orb.Quiz found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activities.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_EventActivity:ActivityTag.
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Maps\Townhall\Venue_Orb_Activity_ArtCompetition.umap: Invalid GameplayTag Activities.Parkland.Orb.ArtCompetition found in property /Script/M2Content.JM_ActivityArea:ActivityTags.
+LogInit: Display: LogGameplayTags: Warning: [AssetLog] C:\dev\M2Unreal\Game\Engine\Plugins\M2Unreal\JunoSkypark\Content\Inventory\DroneCam\BPM_DroneCamPawn.uasset: Invalid GameplayTag Capabilities.Inventory.ItemControlledQuickbarInputs found in property /Script/JunoCapabilities.JM_CapabilitiesComponent:Capabilities.
+LogInit: Display: LogSavePackage: Warning: /M2Content/Audio/System/Tools/BPM_M2_Audio_PlaybackActor imported Serialize:/Engine/EditorResources/AudioIcons/S_AudioComponent.S_AudioComponent, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /M2Content/Audio/System/Tools/BPM_M2_Audio_PlaybackActor imported Serialize:/Engine/EditorResources/AudioIcons/S_AudioComponent, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/UI/Approachability/WBP_Approachability_AreaMenuTitle imported Serialize:/Engine/EditorMaterials/Cross.Cross, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/UI/Approachability/WBP_Approachability_AreaMenuTitle imported Serialize:/Engine/EditorMaterials/Cross, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/UI/Settings/WBP_Settings_Skypark imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture.WhiteSquareTexture, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /M2Content/UI/Settings/WBP_Settings imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture.WhiteSquareTexture, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /M2Content/PDAs/Skins/PDA_Skin_M2Content imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture.WhiteSquareTexture, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/UI/Settings/WBP_Settings_Skypark imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /M2Content/UI/Settings/WBP_Settings imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /M2Content/PDAs/Skins/PDA_Skin_M2Content imported Serialize:/Engine/EditorLandscapeResources/WhiteSquareTexture, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/Inventory/ItemSettingType/BP_DeviceSetting_SoundList imported Serialize:/Engine/EditorResources/AudioIcons/S_Ambient_Sound_Simple.S_Ambient_Sound_Simple, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/Inventory/ItemSettingType/BP_DeviceSetting_SoundList imported Serialize:/Engine/EditorResources/AudioIcons/S_Ambient_Sound_Simple, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/Maps/Skypark_Landscape imported Serialize:/Engine/EditorLandscapeResources/DataLayer.DataLayer, but it was never saved as an export.
+LogInit: Display: LogSavePackage: Warning: /JunoSkypark/Maps/Skypark_Landscape imported Serialize:/Engine/EditorLandscapeResources/DataLayer, but it was never saved as an export.
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 129 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  1m 18s (78.02 seconds)
+LogRuntimeAudioImporter: Warning: Imported sound wave ('Default__ImportedSoundWave') data will be cleared because it is being unloaded
+LogRuntimeAudioImporter: Warning: Imported sound wave ('Default__StreamingSoundWave') data will be cleared because it is being unloaded
+LogRuntimeAudioImporter: Warning: Imported sound wave ('Default__CapturableSoundWave') data will be cleared because it is being unloaded
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+LogShaderCompilers: Display: RAM used: 240.00 B of 3.20 GiB budget. Usage: 0.00%
+LogShaderCompilers: Display: === Shader Compilation stats ===
+LogShaderCompilers: Display: Shaders Compiled: 0
+LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: Shaders left to compile 0
+LogTemp: Display: Live Content Test module shutting down
+Took 87.90s to run UnrealEditor-Cmd.exe, ExitCode=0
+Cook command time: 87.91 s
+********** COOK COMMAND COMPLETED **********
+BuildCookRun time: 89.19 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 29s
+AutomationTool exiting with ExitCode=0 (Success)

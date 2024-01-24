@@ -1,0 +1,20 @@
+projectPath: C:\dev\Edison-main\Edison\Edison.uproject
+UnrealRoot: C:\Users\AnayDhaya\AppData\Local\M2Launcher\Editors\69bcc3\Windows\Engine
+UnrealExe: C:\Users\AnayDhaya\AppData\Local\M2Launcher\Editors\69bcc3\Windows\Engine\Binaries/Win64/UnrealEditor-Cmd.exe
+UATPath: C:\Users\AnayDhaya\AppData\Local\M2Launcher\Editors\69bcc3\Windows\Engine\Build/BatchFiles/RunUAT.bat
+buildPackageId: multi-process-cook-test
+baseReleaseTempDirectory: C:\dev\Python\Cooker Testing\ReleaseTemp
+clientPlatforms: Win64+Linux
+serverPlatforms: Linux
+mapArgument: /Edison/Events/BasketballJan24/Maps/Basketball_P+/Edison/Maps/Edison_P+Edison/Events/Halloween2023/Hallow_P+Edison/Events/Runner/Maps/Runner_P
+num_processes: 4
+num_tests: 2
+num_processes_increment: 3
+num_repeats: 1
+deleteDDC: True
+useCleanArg: True
+runCICommand: False
+MonitorHardwareUsage: True
+TestingProcesses: [1, 4]
+baseline_cpu: 3.5200000000000005
+baseline_memory: 23.579999999999995

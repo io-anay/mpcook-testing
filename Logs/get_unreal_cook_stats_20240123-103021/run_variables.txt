@@ -1,0 +1,13 @@
+projectPath: C:\dev\Edison-main\Edison\Edison.uproject
+UATPath: C:\Users\AnayDhaya\AppData\Local\M2Launcher\Editors\69bcc3\Windows\Engine\Build\BatchFiles\RunUAT.bat
+buildPackageId: multi-process-cook-test
+baseReleaseTempDirectory: C:\dev\Python\Cooker Testing\ReleaseTemp
+clientPlatforms: Win64+Linux
+serverPlatforms: Linux
+mapArgument: Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym
+num_processes: 1
+num_tests: 4
+num_processes_increment: 1
+num_repeats: 1
+deleteDDC: False
+useCleanArg: True

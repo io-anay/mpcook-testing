@@ -1,0 +1,107 @@
+[
+  {
+    "CookManifest": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\WindowsClient\\Edison\\Plugins\\Edison\\Metadata\\AllChunksInfo.csv",
+    "Configuration": "Development",
+    "CookPlatform": "WindowsClient",
+    "PluginName": "Edison",
+    "CookRoot": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\WindowsClient",
+    "AssetManifest": "",
+    "ChunkEntries": {
+      "Edisonpakchunk0": {
+        "PakFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Staged\\Development\\WindowsClient\\Edison\\Plugins\\Edison\\Content\\Paks\\WindowsClient\\Edisonpakchunk0-WindowsClient.pak",
+        "PakResponseFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Logs\\Development\\WindowsClient\\ResponseFiles\\PakList_Edisonpakchunk0-WindowsClient.txt",
+        "Optional": null
+      }
+    }
+  },
+  {
+    "CookManifest": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxClient\\Edison\\Plugins\\Edison\\Metadata\\AllChunksInfo.csv",
+    "Configuration": "Development",
+    "CookPlatform": "LinuxClient",
+    "PluginName": "Edison",
+    "CookRoot": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxClient",
+    "AssetManifest": "",
+    "ChunkEntries": {
+      "Edisonpakchunk0": {
+        "PakFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Staged\\Development\\LinuxClient\\Edison\\Plugins\\Edison\\Content\\Paks\\LinuxClient\\Edisonpakchunk0-LinuxClient.pak",
+        "PakResponseFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Logs\\Development\\LinuxClient\\ResponseFiles\\PakList_Edisonpakchunk0-LinuxClient.txt",
+        "Optional": null
+      }
+    }
+  },
+  {
+    "CookManifest": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\WindowsClient\\Edison\\Plugins\\Edison\\Metadata\\AllChunksInfo.csv",
+    "Configuration": "Test",
+    "CookPlatform": "WindowsClient",
+    "PluginName": "Edison",
+    "CookRoot": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\WindowsClient",
+    "AssetManifest": "",
+    "ChunkEntries": {
+      "Edisonpakchunk0": {
+        "PakFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Staged\\Test\\WindowsClient\\Edison\\Plugins\\Edison\\Content\\Paks\\WindowsClient\\Edisonpakchunk0-WindowsClient.pak",
+        "PakResponseFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Logs\\Test\\WindowsClient\\ResponseFiles\\PakList_Edisonpakchunk0-WindowsClient.txt",
+        "Optional": null
+      }
+    }
+  },
+  {
+    "CookManifest": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxClient\\Edison\\Plugins\\Edison\\Metadata\\AllChunksInfo.csv",
+    "Configuration": "Test",
+    "CookPlatform": "LinuxClient",
+    "PluginName": "Edison",
+    "CookRoot": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxClient",
+    "AssetManifest": "",
+    "ChunkEntries": {
+      "Edisonpakchunk0": {
+        "PakFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Staged\\Test\\LinuxClient\\Edison\\Plugins\\Edison\\Content\\Paks\\LinuxClient\\Edisonpakchunk0-LinuxClient.pak",
+        "PakResponseFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Logs\\Test\\LinuxClient\\ResponseFiles\\PakList_Edisonpakchunk0-LinuxClient.txt",
+        "Optional": null
+      }
+    }
+  },
+  {
+    "CookManifest": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxServer\\Edison\\Plugins\\Edison\\Metadata\\AllChunksInfo.csv",
+    "Configuration": "Test",
+    "CookPlatform": "LinuxServer",
+    "PluginName": "Edison",
+    "CookRoot": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxServer",
+    "AssetManifest": "",
+    "ChunkEntries": {
+      "Edisonpakchunk0": {
+        "PakFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Staged\\Test\\LinuxServer\\Edison\\Plugins\\Edison\\Content\\Paks\\LinuxServer\\Edisonpakchunk0-LinuxServer.pak",
+        "PakResponseFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Logs\\Test\\LinuxServer\\ResponseFiles\\PakList_Edisonpakchunk0-LinuxServer.txt",
+        "Optional": null
+      }
+    }
+  },
+  {
+    "CookManifest": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\WindowsClient\\Edison\\Plugins\\Edison\\Metadata\\AllChunksInfo.csv",
+    "Configuration": "Shipping",
+    "CookPlatform": "WindowsClient",
+    "PluginName": "Edison",
+    "CookRoot": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\WindowsClient",
+    "AssetManifest": "",
+    "ChunkEntries": {
+      "Edisonpakchunk0": {
+        "PakFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Staged\\Shipping\\WindowsClient\\Edison\\Plugins\\Edison\\Content\\Paks\\WindowsClient\\Edisonpakchunk0-WindowsClient.pak",
+        "PakResponseFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Logs\\Shipping\\WindowsClient\\ResponseFiles\\PakList_Edisonpakchunk0-WindowsClient.txt",
+        "Optional": null
+      }
+    }
+  },
+  {
+    "CookManifest": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxClient\\Edison\\Plugins\\Edison\\Metadata\\AllChunksInfo.csv",
+    "Configuration": "Shipping",
+    "CookPlatform": "LinuxClient",
+    "PluginName": "Edison",
+    "CookRoot": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Cooked\\LinuxClient",
+    "AssetManifest": "",
+    "ChunkEntries": {
+      "Edisonpakchunk0": {
+        "PakFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Staged\\Shipping\\LinuxClient\\Edison\\Plugins\\Edison\\Content\\Paks\\LinuxClient\\Edisonpakchunk0-LinuxClient.pak",
+        "PakResponseFile": "C:\\dev\\Python\\Cooker Testing\\Edison\\Output\\Saved\\M2_LiveContent\\Logs\\Shipping\\LinuxClient\\ResponseFiles\\PakList_Edisonpakchunk0-LinuxClient.txt",
+        "Optional": null
+      }
+    }
+  }
+]
