@@ -1,6 +1,6 @@
 # mpcook-testing
 
-You'll need to download anaytest-mpcook-test editor for this as it has the changes required to run JunoLiveCookUpload command and pass through the process number
+>You'll need to download anaytest-mpcook-fix editor for this as it has the changes required to run JunoLiveCookUpload command and pass through the process number. This editor also has the cherrypicked fix from 5.3.2 which fixes mpcook not completing when packaging: https://github.com/EpicGames/UnrealEngine/commit/906eeefe30c073cea5aface5706c7c3ed25b918a
 
 - Make sure you update the ProjectInfo and ProjectInfos as the top of get_unreal_cook_stats.py to point to your own projects and engine installs
 - Change the DDC path to match your common path and your M2Unreal path
