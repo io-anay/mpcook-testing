@@ -8,7 +8,7 @@ from monitor_hardware import monitor_usage, monitor_baseline_usage, plot_smoothe
 
 #define structure containing all the info to run this with a different project
 class ProjectInfo:
-    def __init__(self, projectPath, plugin, mapArgument):
+    def __init__(self, projectPath, plugin, mapArgument, UnrealRoot=None, DDCPath=None):
         self.projectPath = projectPath
         self.plugin = plugin
         self.buildPackageId = "multi-process-cook-test"
@@ -17,11 +17,14 @@ class ProjectInfo:
         self.clientPlatforms = "Win64+Linux"
         self.serverPlatforms = "Linux"
         self.mapArgument = mapArgument
+        self.UnrealRoot = UnrealRoot
+        self.DDCPath = DDCPath
 
 # Define M2Development and Edison ProjectInfos as enum that can be chosen from
 class ProjectInfos:
     M2Development = ProjectInfo("C:\dev\M2Unreal\Game\M2Development\M2Development.uproject", "WorldTravelTest", "Skypark_P+ApproachabilityGym+VoxelWorld+NatCommTestGym+WorldTravelTestMap+WorldTravelTestMap_2")
     Edison = ProjectInfo("C:\dev\Edison-main\Edison\Edison.uproject", "Edison", "/Edison/Events/BasketballJan24/Maps/Basketball_P+/Edison/Maps/Edison_P+Edison/Events/Halloween2023/Hallow_P+Edison/Events/Runner/Maps/Runner_P")
+    Lyra = ProjectInfo("C:\\Users\\AnayDhaya\\Documents\\Unreal Projects\\LyraStarterGame\\LyraStarterGame.uproject", "ShooterMaps", "/ShooterMaps/Maps/L_Expanse", r"C:\Program Files\Epic Games\UE_5.3\Engine", r"C:\\Users\\AnayDhaya\\AppData\\Local\\UnrealEngine\\Common\\DerivedDataCache")
 
 def main():
 
@@ -52,14 +55,15 @@ def main():
 
     # User selects how to run the script
     deleteDDC = False
-    useDDCArg = False
+    useDDCArg = True
     useCleanArg = False
     runJunoLiveCookUpload = False
     MonitorHardwareUsage = True
+    cookAllProject = True
 
     # User chooses the number of processes to test. Each entry is tested num_repeats times
-    tests_to_run = [1, 2, 4, 8]
-    num_repeats = 4
+    tests_to_run = [1]
+    num_repeats = 1
 
     # ===============================
     # == CONFIGURE THE SCRIPT HERE ==
@@ -67,11 +71,20 @@ def main():
 
     # If using JunoLiveCookUpload then use the packaged editor
     if runJunoLiveCookUpload:
-        UnrealRoot = r"C:\Users\AnayDhaya\AppData\Local\UnrealEngine\Launcher\Engine\Binaries\Win64"
-        ddc_path = "C:\\Users\\AnayDhaya\\AppData\\Local\\UnrealEngine\\Common\\DerivedDataCache"
+        UnrealRoot = r"C:\Users\AnayDhaya\AppData\Local\M2Launcher\Editors\69bcc3\Windows\Engine"
+        ddc_path = r"C:\\Users\\AnayDhaya\\AppData\\Local\\UnrealEngine\\Common\\DerivedDataCache"
     else:
         UnrealRoot = r"C:\dev\M2Unreal\Game\Engine"
         ddc_path = "C:\\dev\\M2Unreal\\Game\\Engine\\DerivedDataCache"
+        # UnrealRoot = r"C:\Program Files\Epic Games\UE_5.1\Engine"
+        # ddc_path = r"C:\\Users\\AnayDhaya\\AppData\\Local\\UnrealEngine\\Common\\DerivedDataCache"
+
+    # Project unreal overwrites these
+    if project.UnrealRoot:
+        UnrealRoot = project.UnrealRoot
+    if project.DDCPath:
+        ddc_path = project.DDCPath
+
     UnrealExe = os.path.join(UnrealRoot, "Binaries/Win64/UnrealEditor-Cmd.exe")
     UATPath = os.path.join(UnrealRoot, "Build/BatchFiles/RunUAT.bat")
 
@@ -148,7 +161,7 @@ def main():
                     "-project=\"" + project.projectPath + "\"", 
                     "-skippackage", 
                     "-createreleaseversion=\"" + project.buildPackageId + "\"", 
-                    "-createreleaseversionroot=\"" + project.baseReleaseTempDirectory + "\"", 
+                    "-createreleaseversionroot=" + project.baseReleaseTempDirectory, 
                     "-skipbuild", "-skipbuildeditor", "-nocompile", "-installed", "-utf8output", "-waitmutex", "-SkipCookingEditorContent", 
                     "-client", 
                     "-TargetPlatform=" + project.clientPlatforms, 
@@ -164,6 +177,10 @@ def main():
             # Optional add -ddc command to the command
             if useDDCArg:
                 command.insert(2, "-ddc")
+
+            # Remove -map argument if cookAllProject is True
+            if cookAllProject:
+                command = [arg for arg in command if not arg.startswith("-map")]
 
             # Use subprocess.run to call UAT as if from command line with some additinalcookeroptions for the projectPath. Log the output to a file.
             start_time = time.time()
